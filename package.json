@@ -1,6 +1,6 @@
 {
-  "name": "guid",
-  "version": "1.0.0",
+  "name": "ts-guid",
+  "version": "1.0.1",
   "description": "Provides functionality for simple Guids.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,7 +10,7 @@
   ],
   "author": "Willem Toerien",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "tslint": "^5.10.0",
     "typescript": "^2.9.1"
   }
