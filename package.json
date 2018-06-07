@@ -1,9 +1,9 @@
 {
   "name": "ts-guid",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "Provides functionality for simple Guids.",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "keywords": [
     "Guid",
     "Typescript"

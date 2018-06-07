@@ -1,0 +1,8 @@
+config/
+*.test.*
+*.lock
+*-lock.json
+node_modules/
+*.tgz
+*.npmignore
+*.gitignore
