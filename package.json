@@ -18,7 +18,8 @@
     "typescript": "^2.9.1"
   },
   "scripts": {
-    "test": "jest --watchAll"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
