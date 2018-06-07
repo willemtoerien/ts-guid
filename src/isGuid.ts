@@ -1,13 +1,9 @@
 /**
- * Checks if an object is a {@linkcode Guid}.
+ * Checks if an object is a guid.
  * @param obj The object to check.
- * @returns True if the object is a {@linkcode Guid}.
+ * @returns True if the object is a guid.
  */
-export function isGuid(obj: any): obj is Guid {
-  if (obj.isGuid) {
-    return true;
-  }
-
+export function isGuid(obj: any): boolean {
   if (typeof obj !== 'string') {
     return false;
   }

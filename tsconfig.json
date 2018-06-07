@@ -6,11 +6,8 @@
     "sourceMap": true,
     "declaration": true,
     "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "target": "es5",
-    "jsx": "react",
     "typeRoots": [
       "node_modules/@types"
     ],

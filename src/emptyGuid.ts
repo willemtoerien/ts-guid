@@ -1,2 +1,2 @@
-/** An empty {@linkcode Guid}. */
-export const emptyGuid: Guid = '00000000-0000-0000-0000-000000000000' as Guid;
+/** An empty guid. */
+export const emptyGuid = '00000000-0000-0000-0000-000000000000';
