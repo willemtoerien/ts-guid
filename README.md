@@ -14,12 +14,12 @@
 This section shows how to install **ts-guid**.
 
 ### npm
-```
+```sh
 npm install --save ts-guid 
 ```
 
 ### yarn
-```
+```sh
 yarn add ts-guid
 ```
 
