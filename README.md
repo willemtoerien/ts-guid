@@ -30,7 +30,7 @@ This section shows how to use the features of **ts-guid**.
 This is an empty guid constant.
 
 ```typescript
-import { emptyGuid } from 'ts-node';
+import { emptyGuid } from 'ts-guid';
 
 const user: Models.User = {
   id: emptyGuid
@@ -41,7 +41,7 @@ const user: Models.User = {
 Checks if a string is a guid.
 
 ```typescript
-import { isGuid } from 'ts-node';
+import { isGuid } from 'ts-guid';
 
 export function validateUser(user: Models.User): boolean {
   return isGuid(user.Id);
@@ -53,7 +53,7 @@ export function validateUser(user: Models.User): boolean {
 Generates a new guid.
 
 ```typescript
-import { newGuid } from 'ts-node';
+import { newGuid } from 'ts-guid';
 
 const user: User = {
   id: newGuid()
