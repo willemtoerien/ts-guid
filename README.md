@@ -64,8 +64,22 @@ const user: User = {
 
 ### cli
 
-Outputs a new Guid in the terminal.
+Adds an interface to the library.
 
 ```
-generate-guid
+ts-guid (-u)
 ```
+
+Prints a new GUID. If '-u' is specified, the GUID is in uppercase.
+
+```
+ts-guid -t <GUID>
+```
+
+Tests a GUID if it is valid.
+
+```
+ts-guid -h
+```
+
+Prints the help menu
