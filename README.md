@@ -11,6 +11,7 @@
   - [emptyGuid](#emptyguid)
   - [isGuid](#isguid)
   - [newGuid](#newguid)
+  - [cli](#cli)
 
 ## Installation
 
@@ -66,4 +67,12 @@ import { newGuid } from 'ts-guid';
 const user: User = {
   id: newGuid()
 };
+```
+
+### cli
+
+Outputs a new Guid in the terminal.
+
+```
+generate-guid
 ```
