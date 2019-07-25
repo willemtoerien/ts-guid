@@ -6,7 +6,6 @@
 
 - [Installation](#installation)
   - [npm](#npm)
-  - [yarn](#yarn)
 - [Usage](#usage)
   - [emptyGuid](#emptyguid)
   - [isGuid](#isguid)
@@ -21,12 +20,6 @@ This section shows how to install **ts-guid**.
 
 ```sh
 npm install --save ts-guid
-```
-
-### yarn
-
-```sh
-yarn add ts-guid
 ```
 
 ## Usage
