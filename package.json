@@ -66,8 +66,9 @@
     ],
     "globals": {
       "ts-jest": {
-        "tsConfigFile": "D:\\Dev\\test\\my-app\\tsconfig.test.json"
+        "tsConfigFile": ".\\tsconfig.test.json"
       }
     }
-  }
+  },
+  "dependencies": {}
 }
