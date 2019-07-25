@@ -15,14 +15,15 @@
     "@types/node": "^12.6.8",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
   },
   "bin": {
-    "generate-guid": "./dist/cli.js"
+    "ts-guid": "./dist/cli.js"
   },
   "scripts": {
-    "start": "ts-node ./src/generate",
+    "start": "ts-node ./src/cli",
     "build": "tsc",
     "test": "jest"
   },
