@@ -52,7 +52,7 @@ Checks if a string is a guid.
 import { isGuid } from 'ts-guid';
 
 export function validateUser(user: User): boolean {
-  return isGuid(user.Id);
+  return isGuid(user.id);
 }
 ```
 
