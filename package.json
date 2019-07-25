@@ -11,13 +11,18 @@
   "author": "Willem Toerien",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^23.3.14",
-    "jest": "^23.6.0",
-    "ts-jest": "^22.4.6",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
     "tslint": "^5.18.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.5.3"
+  },
+  "bin": {
+    "generate-guid": "./dist/cli.js"
   },
   "scripts": {
+    "start": "ts-node ./src/generate",
     "build": "tsc",
     "test": "jest"
   },
