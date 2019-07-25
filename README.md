@@ -1,7 +1,9 @@
 # ts-guid
+
 **ts-guid** provides functionality for simple Guids.
 
 ## Index
+
 - [Installation](#installation)
   - [npm](#npm)
   - [yarn](#yarn)
@@ -11,45 +13,51 @@
   - [newGuid](#newguid)
 
 ## Installation
+
 This section shows how to install **ts-guid**.
 
 ### npm
+
 ```sh
-npm install --save ts-guid 
+npm install --save ts-guid
 ```
 
 ### yarn
+
 ```sh
 yarn add ts-guid
 ```
 
 ## Usage
+
 This section shows how to use the features of **ts-guid**.
 
 ### emptyGuid
+
 This is an empty guid constant.
 
 ```typescript
 import { emptyGuid } from 'ts-guid';
 
-const user: Models.User = {
+const user: User = {
   id: emptyGuid
 };
 ```
 
 ### isGuid
+
 Checks if a string is a guid.
 
 ```typescript
 import { isGuid } from 'ts-guid';
 
-export function validateUser(user: Models.User): boolean {
+export function validateUser(user: User): boolean {
   return isGuid(user.Id);
 }
-
 ```
 
 ### newGuid
+
 Generates a new guid.
 
 ```typescript
